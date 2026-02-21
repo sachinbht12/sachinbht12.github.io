@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- SECTION: Head -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume | Your Name</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Decorative background elements -->
+    <div class="background-blur background-blur--one" aria-hidden="true"></div>
+    <div class="background-blur background-blur--two" aria-hidden="true"></div>
+
+    <div class="page">
+      <!-- SECTION: Header -->
+      <header class="site-header" id="top">
+        <div class="container header-inner">
+          <div class="identity">
+            <div class="avatar" aria-hidden="true">YN</div>
+            <div>
+              <p class="eyebrow">Professional Resume</p>
+              <h1 class="site-title">Your Name</h1>
+              <p class="site-subtitle">Your Role / Title</p>
+            </div>
+          </div>
+
+          <div class="header-meta">
+            <div class="contact">
+              <a href="mailto:you@example.com">you@example.com</a>
+              <span>•</span>
+              <a href="tel:+1234567890">+1 234 567 890</a>
+            </div>
+            <div class="links">
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="#" class="download-btn" id="download-cv">Download CV (PDF)</a>
+            </div>
+          </div>
+        </div>
+
+        <nav class="site-nav" aria-label="Primary">
+          <div class="container nav-inner">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+              <span class="nav-toggle-line"></span>
+              <span class="nav-toggle-line"></span>
+            </button>
+            <ul class="nav-list" id="nav-list">
+              <li><a href="#about" class="nav-link is-active">About</a></li>
+              <li><a href="#experience" class="nav-link">Experience</a></li>
+              <li><a href="#education" class="nav-link">Education</a></li>
+              <li><a href="#skills" class="nav-link">Skills</a></li>
+              <li><a href="#projects" class="nav-link">Projects</a></li>
+              <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <main class="main">
+        <div class="container layout">
+          <!-- SECTION: Main Content -->
+          <div class="layout-main">
+            <section id="about" class="section section--primary" aria-labelledby="about-heading">
+              <div class="section-header">
+                <h2 id="about-heading">About Me</h2>
+                <div class="accent-line"></div>
+              </div>
+              <p>
+                A short, professional summary goes here. Talk about your experience level,
+                core strengths, and the type of roles you are targeting. Keep it clear and
+                focused on the value you bring to a team.
+              </p>
+            </section>
+
+            <section id="experience" class="section" aria-labelledby="experience-heading">
+              <div class="section-header">
+                <h2 id="experience-heading">Work Experience</h2>
+              </div>
+
+              <article class="item">
+                <header class="item-header">
+                  <div>
+                    <h3 class="item-title">Job Title</h3>
+                    <p class="item-subtitle">Company Name · Location</p>
+                  </div>
+                  <p class="item-meta">2022 — Present</p>
+                </header>
+                <ul class="item-body">
+                  <li>Key responsibility or achievement that shows measurable impact.</li>
+                  <li>Another bullet highlighting tools, technologies, or outcomes.</li>
+                  <li>Optional bullet with collaboration, leadership, or ownership.</li>
+                </ul>
+              </article>
+
+              <article class="item">
+                <header class="item-header">
+                  <div>
+                    <h3 class="item-title">Previous Job Title</h3>
+                    <p class="item-subtitle">Previous Company · Location</p>
+                  </div>
+                  <p class="item-meta">2019 — 2022</p>
+                </header>
+                <ul class="item-body">
+                  <li>Summarize the main focus of your role in this position.</li>
+                  <li>Mention improvements, optimizations, or successful projects.</li>
+                </ul>
+              </article>
+            </section>
+
+            <section id="projects" class="section" aria-labelledby="projects-heading">
+              <div class="section-header">
+                <h2 id="projects-heading">Projects</h2>
+              </div>
+
+              <div class="grid">
+                <article class="card">
+                  <h3 class="card-title">Project Name</h3>
+                  <p class="card-meta">Tech stack or category</p>
+                  <p class="card-body">
+                    Brief description of the project, your role, and what makes it noteworthy.
+                  </p>
+                  <div class="card-actions">
+                    <a href="#" class="chip">View project</a>
+                    <a href="#" class="chip chip--ghost">Source code</a>
+                  </div>
+                </article>
+
+                <article class="card">
+                  <h3 class="card-title">Another Project</h3>
+                  <p class="card-meta">Tech stack or category</p>
+                  <p class="card-body">
+                    Highlight outcomes, challenges solved, or anything that demonstrates your skills.
+                  </p>
+                  <div class="card-actions">
+                    <a href="#" class="chip">View project</a>
+                    <a href="#" class="chip chip--ghost">Source code</a>
+                  </div>
+                </article>
+              </div>
+            </section>
+          </div>
+
+          <!-- SECTION: Sidebar -->
+          <aside class="layout-sidebar" aria-label="Resume details sidebar">
+            <section id="skills" class="section" aria-labelledby="skills-heading">
+              <div class="section-header">
+                <h2 id="skills-heading">Skills</h2>
+              </div>
+              <div class="pill-group">
+                <span class="pill">Skill One</span>
+                <span class="pill">Skill Two</span>
+                <span class="pill">Skill Three</span>
+                <span class="pill">Tool / Tech</span>
+                <span class="pill">Soft Skill</span>
+              </div>
+            </section>
+
+            <section id="education" class="section" aria-labelledby="education-heading">
+              <div class="section-header">
+                <h2 id="education-heading">Education</h2>
+              </div>
+
+              <article class="item item--compact">
+                <h3 class="item-title">Degree / Program</h3>
+                <p class="item-subtitle">Institution Name</p>
+                <p class="item-meta">2015 — 2019</p>
+              </article>
+            </section>
+
+            <section id="certifications" class="section" aria-labelledby="certifications-heading">
+              <div class="section-header">
+                <h2 id="certifications-heading">Certifications & Awards</h2>
+              </div>
+
+              <ul class="list">
+                <li>
+                  <p class="list-title">Certification Name</p>
+                  <p class="list-meta">Issuing Organization · 2023</p>
+                </li>
+                <li>
+                  <p class="list-title">Award Name</p>
+                  <p class="list-meta">Organization · 2022</p>
+                </li>
+              </ul>
+            </section>
+
+            <section class="section section--subtle" aria-label="Download resume">
+              <div class="section-header">
+                <h2 class="section-title-small">Need a copy?</h2>
+              </div>
+              <p>Download a printable PDF version of this resume.</p>
+              <button class="button button--primary button--full" id="download-cv-sidebar">
+                Download CV (PDF)
+              </button>
+            </section>
+          </aside>
+        </div>
+      </main>
+
+      <!-- SECTION: Footer -->
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+          <a href="#top" class="back-to-top">Back to top</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
